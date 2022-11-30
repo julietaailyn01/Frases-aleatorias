@@ -1,0 +1,86 @@
+html{
+    background-color:black;
+    color: white;
+    font-family: "georgia";
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+  }
+  div{
+    position: relative;
+    z-index:3;
+  }
+  
+  #quote-box{
+    position:relative;
+    width:500px;
+    padding: 45px;
+    background-color:#086349;
+    display:table;
+    border-radius:5px;
+  }
+  
+  .button{
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 50px;
+    cursor: pointer; 
+  }
+  
+  #tweet-quote{
+      float: left;
+      padding: 0px;
+      padding-top: 8px;
+      text-align: center;
+      font-size: 1.2em;
+      margin-right: 5px;
+      height: 30px;
+      width: 40px;
+    }
+  
+  .quote-text{
+    font-size:1.5em;
+    
+  }
+  .quote-author{
+    margin:40px;
+    text-align: end;
+    
+  }
+  
+    
+  #new-quote{
+    float:right;
+    font-family:"georgia";
+  }
+  
+  footer{
+    border-radius:5px;
+    margin-bottom:2px;
+    float:left;
+    font-size:0.8em;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: #333;
+    z-index: 8;
+    bottom:0;
+    left:0;
+  }
+  
+  .button:hover{
+    transform: translateX(-5px);
+    transition:0.4s;
+    background-color:black;
+  }
+  
+  
+  
+  
